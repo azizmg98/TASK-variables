@@ -11,9 +11,11 @@
 
 // Part 1 answer 👇🏻 ...
 
-
-
-
+let fullName = "AbdulAziz Al-Ghanim";
+let yearOfBirth = 1998;
+let hobby = "chess";
+let funFact = "I always loss chess";
+const image = "https://i.natgeofe.com/n/91818687-1a2d-4587-9c52-f4d08220940a/32857_3x4.jpg"
 
 
 /**
@@ -29,9 +31,9 @@
  * You can uncomment a line by removing the // at the start
  */
 
-// const fullNameString = `My name is ${}`;
-// const yearOfBirthString =
-// const hobbyString =
+ const fullNameString = `My name is ${fullName}`;
+ const yearOfBirthString = `I am ${2022 - yearOfBirth}`;
+ const hobbyString = `My hobby is ${hobby}`
 
 
 
@@ -45,14 +47,18 @@ let stars = 0;
 
 function incrementBy1() {
   // Increment stars by 1 👇🏻
+  stars ++
 }
 function decrementBy1() {
   // decrement stars by 1 👇🏻
+  stars --
 }
 
 function incrementBy2() {
   // Increment stars by 2 👇🏻
+  stars += 2
 }
 function decrementBy2() {
   // decrement stars by 2 👇🏻
+  stars -+ 2
 }
